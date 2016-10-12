@@ -1,0 +1,15 @@
+mixin color-card(data)
+  .card.card--color
+    if data && data.header
+      .card-header
+        = data.header
+    .card-block(class=(data && data.color ? 'bg-'+data.color : false))&attributes(attributes)
+    .card-footer
+      if data && data.footer
+        = data.footer
+      else if data && data.color
+        | $#{data.color}
+      else if data && data.gradientStart && data.gradientEnd
+        div
+          span #{data.gradientStart}
+          span #{data.gradientEnd}

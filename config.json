@@ -1,0 +1,77 @@
+{
+  "root": {
+    "src": "./../../src",
+    "dev": "./../../dist",
+    "dest": "./../../public",
+    "dist": "./../../build",
+    "loaders": "./../../loaders"
+  },
+
+  "loaders": {
+    "imports": "imports"
+  },
+
+  "options": {
+    "cleanFirst": false,
+    "reportSizes": false
+  },
+
+  "tasks": {
+    "browserSync": {
+      "server": {
+        "baseDir": "./../../dist"
+      }
+    },
+
+    "js": {
+      "src": "javascripts",
+      "dest": "javascripts",
+      "entries": {
+        "app": ["./app.js"],
+        "styleguide": ["./styleguide.js"],
+        "inject": ["./inject.js"]
+      },
+      "extensions": ["js"],
+      "extractSharedJs": false,
+      "hotModuleReplacement": true,
+      "deployUncompressed": true
+    },
+
+    "css": {
+      "src": "stylesheets",
+      "dest": "stylesheets",
+      "autoprefixer": {
+        "browsers": ["last 3 version"]
+      },
+      "sass": {
+        "indentedSyntax": false
+      },
+      "extensions": "scss",
+      "excludeFolders": ["styleguide", "inject", "app"],
+      "deployUncompressed": true
+    },
+
+    "pug": {
+      "src": "pug",
+      "dest": "./",
+      "data": [
+        "app/data/global.json",
+        "styleguide/data/global.json"
+      ],
+      "extensions": ["pug", "json"],
+      "excludeFolders": ["atomic", "helper", "data"]
+    },
+
+    "images": {
+      "src": "images",
+      "dest": "images",
+      "extensions": ["jpg", "png", "svg", "gif"]
+    },
+
+    "fonts": {
+      "src": "fonts",
+      "dest": "fonts",
+      "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
+    }
+  }
+}
