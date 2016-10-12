@@ -1,30 +1,38 @@
 {
-  "name": "styleguide",
-  "version": "0.1.0",
-  "description": "Styleguide for Gulp-Starter",
-  "license": "MIT",
   "author": {
     "name": "Ricardo Schmidt",
     "email": "r.schmidt@queo-group.com"
   },
-  "repository": {
-    "type": "github",
-    "url": "https://github.com/rcreate/styleguide"
-  },
-  "scripts": {
-    "development": "cd ./node_modules/gulp-starter && npm run-script development",
-    "demo": "cd ./node_modules/gulp-starter && npm run-script demo",
-    "production": "cd ./node_modules/gulp-starter && npm run-script production",
-    "dist-patch": "cd ./node_modules/gulp-starter && npm run-script dist-patch",
-    "dist-update": "cd ./node_modules/gulp-starter && npm run-script dist-update",
-    "dist-upgrade": "cd ./node_modules/gulp-starter && npm run-script dist-upgrade"
-  },
-  "devDependencies": {
-    "gulp-starter": "rcreate/gulp-starter#develop"
+  "bugs": {
+    "url": "https://github.com/rcreate/styleguide/issues"
   },
   "dependencies": {
-    "bootstrap": "4.0.0-alpha.2",
+    "bootstrap": "4.0.0-alpha.4",
     "highlightjs": "8.7.0",
-    "jquery": "3.0.0"
-  }
+    "jquery": "3.1.0"
+  },
+  "description": "Styleguide for Gulp-Starter",
+  "devDependencies": {
+    "gulp-starter": "github:rcreate/gulp-starter#develop"
+  },
+  "gitHead": "328d3a30bff6d5a782386da8d79dd4d8fe7a3829",
+  "homepage": "https://github.com/rcreate/styleguide#readme",
+  "license": "MIT",
+  "name": "styleguide",
+  "optionalDependencies": {},
+  "readme": "# styleguide",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/rcreate/styleguide.git"
+  },
+  "scripts": {
+    "demo": "cd ./node_modules/gulp-starter && npm run-script demo",
+    "development": "cd ./node_modules/gulp-starter && npm run-script development",
+    "dist-patch": "cd ./node_modules/gulp-starter && npm run-script dist-patch",
+    "dist-update": "cd ./node_modules/gulp-starter && npm run-script dist-update",
+    "dist-upgrade": "cd ./node_modules/gulp-starter && npm run-script dist-upgrade",
+    "production": "cd ./node_modules/gulp-starter && npm run-script production"
+  },
+  "version": "0.1.0"
 }

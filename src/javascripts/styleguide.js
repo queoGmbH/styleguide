@@ -20,7 +20,7 @@ window['styleguide'] = window.styleguide || new function () {
         var loadModule = function (name, selector) {
             var $target = $(selector);
             if( $target.length ) {
-                var module = require('./styleguide/'+name);
+                var module = require('./modules/'+name);
                 instances[name] = {};
                 instances[name][selector.toString()] = new module($target);
             }
