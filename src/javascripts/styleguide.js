@@ -2,7 +2,7 @@
 
 window['jQuery'] = require('jquery');
 window['$'] = window['jQuery'];
-window['Util'] = require('exports?Util!./../../node_modules/bootstrap/js/dist/util');
+window['Util'] = require('exports?Util!bootstrap/js/dist/util');
 require('bootstrap/js/dist/collapse');
 
 window['styleguide'] = window.styleguide || new function () {
