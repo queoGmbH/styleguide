@@ -1,0 +1,21 @@
+
+
+.card-block {
+    align-items: center;
+    display: flex;
+    height: 8rem;
+    justify-content: center;
+
+    .icon {
+        font-size: 3rem;
+    }
+}
+
+.card-footer {
+
+    > div {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}

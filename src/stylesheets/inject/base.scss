@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.styleguide-headline {
+    padding: 1rem;
+    font-size: 2rem;
+    line-height: 1.375;
+    margin-bottom: 1rem;
+    color: #003366;
+    background-color: #fafafa;
+    border-bottom: 1px solid #003366;
+}
+
+.footer {
+    margin-top: -1rem;
+}
+
+.navbar {
+    position: relative;
+    margin-top: -1rem;
+}
+
+.section {
+
+    > .display-4 {
+        color: #003366;
+        font-size: 2rem;
+
+        @media (max-width: 901px) {
+            padding: 0 1rem;
+        }
+    }
+
+    > .h1,
+    > .h2 {
+        background-color: #f2f2f2;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    > .h1 {
+        border-bottom: 4px solid #003366;
+    }
+
+    > .h2 {
+        margin-top: 1rem;
+    }
+
+    + .section {
+        margin-top: 2rem;
+    }
+}
