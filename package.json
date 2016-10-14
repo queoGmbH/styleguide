@@ -9,12 +9,12 @@
   "dependencies": {
     "bootstrap": "4.0.0-alpha.4",
     "highlightjs": "8.7.0",
-    "jquery": "3.1.0"
-  },
-  "description": "Styleguide for Gulp-Starter",
-  "devDependencies": {
+    "jquery": "3.1.0",
+    "exports-loader": "0.6.3",
     "gulp-starter": "github:rcreate/gulp-starter#develop"
   },
+  "description": "Styleguide for Gulp-Starter",
+  "devDependencies": {},
   "gitHead": "328d3a30bff6d5a782386da8d79dd4d8fe7a3829",
   "homepage": "https://github.com/rcreate/styleguide#readme",
   "license": "MIT",
