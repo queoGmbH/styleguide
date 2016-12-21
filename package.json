@@ -11,7 +11,7 @@
     "highlightjs": "8.7.0",
     "jquery": "3.1.0",
     "exports-loader": "0.6.3",
-    "gulp-starter": "queoGmbH/gulp-starter#develop"
+    "gulp-starter": "queoGmbH/gulp-starter#blendid-v4.1.0"
   },
   "description": "Styleguide for Gulp-Starter",
   "devDependencies": {},
