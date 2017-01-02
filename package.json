@@ -14,7 +14,7 @@
   },
   "description": "Styleguide for Gulp-Starter",
   "devDependencies": {
-    "gulp-starter": "queoGmbH/gulp-starter#develop"
+    "queo-gulp-starter": "3.3.0"
   },
   "gitHead": "328d3a30bff6d5a782386da8d79dd4d8fe7a3829",
   "homepage": "https://github.com/rcreate/styleguide#readme",
@@ -29,11 +29,11 @@
   },
   "scripts": {
     "demo": "cd ./node_modules/gulp-starter && npm run-script demo",
-    "development": "cd ./node_modules/gulp-starter && npm run-script development",
-    "dist-patch": "cd ./node_modules/gulp-starter && npm run-script dist-patch",
-    "dist-update": "cd ./node_modules/gulp-starter && npm run-script dist-update",
-    "dist-upgrade": "cd ./node_modules/gulp-starter && npm run-script dist-upgrade",
-    "production": "cd ./node_modules/gulp-starter && npm run-script production"
+    "development": "cd ./node_modules/queo-gulp-starter && npm run-script development",
+    "dist-patch": "cd ./node_modules/queo-gulp-starter && npm run-script dist-patch",
+    "dist-update": "cd ./node_modules/queo-gulp-starter && npm run-script dist-update",
+    "dist-upgrade": "cd ./node_modules/queo-gulp-starter && npm run-script dist-upgrade",
+    "production": "cd ./node_modules/queo-gulp-starter && npm run-script production"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
