@@ -4,7 +4,7 @@
     "email": "r.schmidt@queo-group.com"
   },
   "bugs": {
-    "url": "https://github.com/rcreate/styleguide/issues"
+    "url": "https://github.com/queoGmbH/styleguide/issues"
   },
   "dependencies": {
     "bootstrap": "4.0.0-alpha.4",
@@ -12,8 +12,7 @@
     "jquery": "3.1.0",
     "exports-loader": "0.6.3"
   },
-  "description": "Styleguide for Gulp-Starter",
-  "gitHead": "328d3a30bff6d5a782386da8d79dd4d8fe7a3829",
+  "description": "Simple styleguide for Blendid (ex gulp-starter)",
   "homepage": "https://github.com/rcreate/styleguide#readme",
   "license": "MIT",
   "name": "queo-styleguide",
@@ -22,7 +21,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "github",
-    "url": "git+https://github.com/rcreate/styleguide.git"
+    "url": "git+https://github.com/queoGmbH/styleguide.git"
   },
   "version": "1.0.0"
 }
